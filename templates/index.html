@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Resume Optimizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Resume Optimizer</h1>
+        <form id="upload-form" method="POST" enctype="multipart/form-data">
+            <label for="resume">📄 Upload Your Resume (PDF):</label>
+            <input type="file" id="resume" name="resume" accept=".pdf" required><br><br>
+            <button type="button" id="upload-btn">📤 Upload Resume</button>
+        </form>
+        <div id="results-container" style="display:none;">
+            <div class="review-box">
+                <h2>📋 CV Review</h2>
+                <div id="cv-review-list"></div> <!-- Container to display the review points -->
+            </div>
+            <div class="optimize-container">
+                <button type="button" id="optimize-btn">✨ Optimize</button>
+                <div id="optimization-tips" style="display:none;">
+                    <h2>💡 Optimization Tips</h2>
+                    <div id="tips-list"></div> <!-- Container to display optimization tips -->
+                </div>
+            </div>
+            <div class="reset-container">
+                <button type="button" id="reset-btn">🔄 Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

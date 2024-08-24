@@ -24,3 +24,6 @@ A web-based resume optimizer that analyzes and optimizes resumes using Google Pa
    ```bash
    git clone https://github.com/yourusername/resume-optimizer.git
    cd resume-optimizer
+
+   ![FireShot Capture 002 - 🚀 Resume Optimizer - 127 0 0 1](https://github.com/user-attachments/assets/3ca74a06-d103-46ac-a911-2dc562faaa6b)
+

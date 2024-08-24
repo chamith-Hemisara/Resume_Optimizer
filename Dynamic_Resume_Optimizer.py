@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Google PaLM API Key
-palm.configure(api_key="AIzaSyDsCWHD9S1MMs6SuAAXQIiLuxgl5cvgkpc")
+palm.configure(api_key="******************8")
 
 # Load the SpaCy NLP model
 nlp = spacy.load('en_core_web_sm')
